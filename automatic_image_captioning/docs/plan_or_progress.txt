@@ -1,0 +1,51 @@
+Syntax of each method:
+
+****************************************************************
+YASWANTH:
+Line by line code understanding
+- Data set 
+- Image feature extractor
+- Preprocessing the images
+- Feature vectors of the images using ResNet50
+****************************************************************
+
+CHIRU / PRAVEEN:
+
+ResNet50 
+- what and why?
+- Architecture
+- Importance of each layer
+- input and output of each layer
+- Model parameters
+- preprocess, etc
+- Compare it with InceptionV3
+****************************************************************
+
+YASWANTH:
+
+- Text processor
+- Vocabulary of words
+
+- Understanding of GloVe, word2vec
+- Feature vectors for words
+
+****************************************************************
+SATYAM / PRAVEEN:
+
+LSTM
+- what and why?
+- Architecture
+- Importance of each layer
+- input and output of each layer
+- Model parameters
+- compile, fit_generator, model.save
+
+****************************************************************
+SATYAM:
+
+- greedySearch
+- Evaluationg the model - accuracy metrics - confusion matrix - Bleu Score
+
+****************************************************************
+
+
