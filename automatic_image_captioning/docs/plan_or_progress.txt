@@ -1,3 +1,33 @@
+PLAN ON 23 JUL 2022
+
+****************************************************************
+
+BACKLOG:
+
+- list the alternate encoders and decoders and explore them
+- Conclude the best encoder and decoder approaches
+- Explore glove / word2vec / etc
+- Explore tokenization / lemmatization 
+- Exploring different types of model evalution methods bleu, etc (1 week)
+
+Deploymnets: (4 weeks)
+- FastAPI + cloud deployment
+- Exploring alternate deployment approaches:
+---- Deploy to aws, azure, gcp, deta.sh, 
+---- Deploy to mobile app
+---- Deploy to telegram/ watsapp
+
+****************************************************************
+By 31 Jul 2022
+
+- Understand soft attention, hard attention
+- Understand transformers
+- implemmentation of attention and transformers 
+- Visualization of network architecture
+
+****************************************************************
+
+
 PLAN ON 16 JUL 2022
 
 ****************************************************************
@@ -55,4 +85,15 @@ SATYAM:
 
 ****************************************************************
 
+By 24 Jul 2022
 
+ALL:
+- Get 5 captions
+
+Dobts to be clarified:
+
+- Padding - valid/same, when to use what?
+- stride m X n, why not only m?
+- what is activation is converting linear to non-linear why?
+- The relation between SVM and Activation function?
+- Batch1Normalization, Batch2Normalization
