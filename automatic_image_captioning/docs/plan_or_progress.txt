@@ -1,35 +1,40 @@
 PLAN ON 16 JUL 2022
 
 ****************************************************************
+By 24 Jul 2022
+
 YASWANTH:
-Line by line code understanding
-- Data set 
-- Image feature extractor
-- Preprocessing the images
-- Feature vectors of the images using ResNet50
+DONE - Line by line code understanding
+DONE - Data set 
+DONE - Image feature extractor
+DONE - Preprocessing the images
+DONE - Feature vectors of the images using ResNet50
 ****************************************************************
+By 24 Jul 2022
 
 CHIRU / PRAVEEN:
 
 ResNet50 
-- what and why?
-- Architecture
-- Importance of each layer
-- input and output of each layer
+DONE - what and why?
+DONE - Architecture
+DONE - Importance of each layer
+DONE - input and output of each layer
+DONE - preprocess, etc
 - Model parameters
-- preprocess, etc
 - Compare it with InceptionV3
 ****************************************************************
+By 24 Jul 2022
 
 YASWANTH:
 
-- Text processor
-- Vocabulary of words
-
+DONE - Text processor
+DONE - Vocabulary of words
+DONE - Feature vectors for words
 - Understanding of GloVe, word2vec
-- Feature vectors for words
 
 ****************************************************************
+By 24 Jul 2022
+
 SATYAM / PRAVEEN:
 
 LSTM
@@ -41,6 +46,8 @@ LSTM
 - compile, fit_generator, model.save
 
 ****************************************************************
+By 24 Jul 2022
+
 SATYAM:
 
 - greedySearch
