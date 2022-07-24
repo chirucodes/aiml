@@ -92,8 +92,8 @@ ALL:
 
 Dobts to be clarified:
 
-- Padding - valid/same, when to use what?
-- stride m X n, why not only m?
-- what is activation is converting linear to non-linear why?
-- The relation between SVM and Activation function?
-- Batch1Normalization, Batch2Normalization
+DONE - Padding - valid/same, when to use what?
+DONE - stride m X n, why not only m?
+DONE - what is activation is converting linear to non-linear why?
+DONE - The relation between SVM and Activation function?
+DONE - Batch1Normalization, Batch2Normalization
