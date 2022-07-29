@@ -24,6 +24,7 @@ By 31 Jul 2022
 - Understand transformers
 - implemmentation of attention and transformers 
 - Visualization of network architecture
+- greedySearch
 
 ****************************************************************
 
@@ -80,15 +81,16 @@ By 24 Jul 2022
 
 SATYAM:
 
-- greedySearch
-- Evaluationg the model - accuracy metrics - confusion matrix - Bleu Score
+DONE - Evaluationg the model - accuracy metrics - confusion matrix - Bleu Score
+---- https://www.youtube.com/watch?v=9d4Oxx06r3Q
+
 
 ****************************************************************
 
 By 24 Jul 2022
 
 ALL:
-- Get 5 captions
+DONE - Get 5 captions
 
 Dobts to be clarified:
 
