@@ -25,6 +25,7 @@ By 31 Jul 2022
 - implemmentation of attention and transformers 
 - Visualization of network architecture
 - greedySearch
+- ppt preparation
 
 ****************************************************************
 
@@ -99,3 +100,11 @@ DONE - stride m X n, why not only m?
 DONE - what is activation is converting linear to non-linear why?
 DONE - The relation between SVM and Activation function?
 DONE - Batch1Normalization, Batch2Normalization
+
+****************************************************************
+
+By 30 Jul 2022
+
+Dobts to be clarified:
+
+- Why Input layer count is getting added
