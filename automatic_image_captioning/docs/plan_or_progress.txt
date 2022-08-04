@@ -1,10 +1,44 @@
+PLAN ON 4 AUG 2022
+****************************************************************
+
+PRAVEEN: 
+
+- Evaluating the model with test data
+- Get the accuracy metrics
+- Printing the metrics at the end
+- Exploring Bleu, Cider and Meteor
+
+****************************************************************
+
+SATYAM: 
+
+- Download all the datasets(Flickr8k, Flickr30k, COCO123K) and keep them in google drive and share with everyone
+- Make sure that the downloaded datsets are in same format/structure
+- Data massaging for train and test splitting 
+
+****************************************************************
+CHIRU:
+
+- Make the single google colab work for all the hyper parameters with conditions
+- Share an excell sheet to record the metrics for different hyper parameters like with attention and without attention, optimizers, learning rate, train and test data split ratio, etc 
+- Logic for updating the excell sheet if possible
+- Exploring initial phase of deployment. where to host? UI?
+
+****************************************************************
+YASWANTH:
+
+- transformers
+- use hard attention
+
+****************************************************************
+
 PLAN ON 23 JUL 2022
 
 ****************************************************************
 
 BACKLOG:
 
-- list the alternate encoders and decoders and explore them
+- list the alternate encoders and decoders and explore them - LSTM, GRU
 - Conclude the best encoder and decoder approaches
 - Explore glove / word2vec / etc
 - Explore tokenization / lemmatization 
@@ -20,10 +54,12 @@ Deploymnets: (4 weeks)
 ****************************************************************
 By 31 Jul 2022
 
-- Understand soft attention, hard attention
+DONE - Understand soft attention
+- Understand hard attention
 - Understand transformers
-- implemmentation of attention and transformers 
-- Visualization of network architecture
+DONE - implemmentation of attention
+- implemmentation of transformers 
+DONE - Visualization of network architecture
 - greedySearch
 - ppt preparation
 
@@ -70,12 +106,12 @@ By 24 Jul 2022
 SATYAM / PRAVEEN:
 
 LSTM
-- what and why?
-- Architecture
-- Importance of each layer
-- input and output of each layer
-- Model parameters
-- compile, fit_generator, model.save
+DONE - what and why?
+DONE - Architecture
+DONE - Importance of each layer
+DONE - input and output of each layer
+DONE - Model parameters
+DONE - compile, fit_generator, model.save
 
 ****************************************************************
 By 24 Jul 2022
