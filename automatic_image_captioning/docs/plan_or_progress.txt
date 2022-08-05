@@ -19,7 +19,7 @@ SATYAM:
 ****************************************************************
 CHIRU:
 
-- Make the single google colab work for all the hyper parameters with conditions
+DONE - Make the single google colab work for all the hyper parameters with conditions
 - Share an excell sheet to record the metrics for different hyper parameters like with attention and without attention, optimizers, learning rate, train and test data split ratio, etc 
 - Logic for updating the excell sheet if possible
 - Exploring initial phase of deployment. where to host? UI?
