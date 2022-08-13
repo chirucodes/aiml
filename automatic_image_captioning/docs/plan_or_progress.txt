@@ -12,17 +12,17 @@ PRAVEEN:
 
 SATYAM: 
 
-- Download all the datasets(Flickr8k, Flickr30k, COCO123K) and keep them in google drive and share with everyone
-- Make sure that the downloaded datsets are in same format/structure
-- Data massaging for train and test splitting 
+DONE - Download all the datasets(Flickr8k, Flickr30k) and keep them in google drive and share with everyone
+- Download the datasets(COCO123K) and keep them in google drive and share with everyone
+InProgress- Make sure that the downloaded datsets are in same format/structure, update colab
+DONE - Data massaging for train and test splitting 
 
 ****************************************************************
 CHIRU:
 
 DONE - Make the single google colab work for all the hyper parameters with conditions
 DONE - Share an excell sheet to record the metrics for different hyper parameters like with attention and without attention, optimizers, learning rate, train and test data split ratio, etc 
-- Logic for updating the excell sheet if possible
-- Exploring initial phase of deployment. where to host? UI?
+InProgress - Exploring initial phase of deployment. where to host? UI?
 
 ****************************************************************
 YASWANTH:
@@ -43,6 +43,7 @@ BACKLOG:
 - Explore glove / word2vec / etc
 - Explore tokenization / lemmatization 
 - Exploring different types of model evalution methods bleu, etc (1 week)
+- Logic for updating the excell sheet if possible
 
 Deploymnets: (4 weeks)
 - FastAPI + cloud deployment
