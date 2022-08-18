@@ -41,7 +41,7 @@ def get_caption():
     """
     logging.info("Predicting a caption for given image")
 
-    my_file = root_dir+"\\src\\2090339522_d30d2436f9.jpg"
+    my_file = root_dir+"/src/2090339522_d30d2436f9.jpg"
     caption = cap_gen.get_caption(input_image=my_file)
     logging.info("Caption generated: %s" % caption)
 
