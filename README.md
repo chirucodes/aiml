@@ -81,13 +81,15 @@ We have trained multiple models with various hyper parameters as described the b
 
 ### Can I train a model?
 Yes, You can train the model using **the Google Colab notebook with various parameters**
-[automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb](https://github.com/chirucodes/aiml/blob/main/automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb)
+[Google_colab_notebook_automatic_image_captioning](https://github.com/chirucodes/aiml/blob/main/automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb)
 
 ### Some observations during the model training?
 You can find the observation in the [google sheets](https://docs.google.com/spreadsheets/d/1eO9BrHyBLZACl_1QBHOROR3yUCW5jHyael8NUIjX4vA/edit#gid=0)
 
 ### What should I deploy on a remote server?
 https://github.com/chirucodes/aiml/tree/main/first_micro
+![image](https://user-images.githubusercontent.com/42552004/185702837-1a550f5d-d1d8-4dd4-8de1-f65d1f2e3bbb.png)
+
 
 ### Is it live?
 Yes, you can access the hosted service using the below links,
