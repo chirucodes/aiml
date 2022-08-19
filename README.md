@@ -21,10 +21,18 @@ Captioning the images with proper descriptions automatically has become an inter
 - Picasa : Using facial Recognition to identify your friends and you in a group picture.
 - Tesla/Google Self Drive Cars: All the self drive cars are using image/video processing with neural network to attain their goal.
 
-Now we will see some information about the dataset and the architecture of the neural network of the Image captions generator.
+### What is the architecture used?
+We used one joint model AICRL, which is able to conduct the automatic image captioning based on ResNet50 and LSTM with soft attention. AICRL consists of one encoder and one decoder. 
+
+**Encoder**
+The Convolutional Neural Network(CNN) can be thought of as an encoder. The input image is given to CNN to extract the features. The last hidden state of the CNN is connected to the Decoder. The encoder adopts ResNet50 based on the convolutional neural network, which creates an extensive representation of the given image by embedding it into a fixed length vector. 
+
+**Decoder**
+The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The decoder is designed with LSTM, a recurrent neural network and a soft attention mechanism, to selectively focus the attention over certain parts of an image to predict the next sentence. 
 
 ![image](https://user-images.githubusercontent.com/42552004/185695247-312e4c1f-f893-4869-ae7a-1088ae27661e.png)
 
+Now we will see some information about the dataset and the architecture of the neural network of the Image captions generator.
 
 
 
@@ -39,12 +47,6 @@ Make sure you have installed all the following necessary libraries:
 - NumPy
 - nltk ( Natural language tool kit)
 
-Encoder
-The Convolutional Neural Network(CNN) can be thought of as an encoder. The input image is given to CNN to extract the features. The last hidden state of the CNN is connected to the Decoder.
-
-Decoder
-The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The first time step receives the encoded output from the encoder and also the <START> vector.
-  
 
 ### Colab file to execute
 [automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb](https://github.com/chirucodes/aiml/blob/main/automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb)
