@@ -25,27 +25,30 @@ Captioning the images with proper descriptions automatically has become an inter
 We used one joint model AICRL, which is able to conduct the automatic image captioning based on ResNet50 and LSTM with soft attention. AICRL consists of one encoder and one decoder. 
 
 **Encoder**
+
 The Convolutional Neural Network(CNN) can be thought of as an encoder. The input image is given to CNN to extract the features. The last hidden state of the CNN is connected to the Decoder. The encoder adopts ResNet50 based on the convolutional neural network, which creates an extensive representation of the given image by embedding it into a fixed length vector. 
 
 **Decoder**
+
 The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The decoder is designed with LSTM, a recurrent neural network and a soft attention mechanism, to selectively focus the attention over certain parts of an image to predict the next sentence. 
 
-![image](https://user-images.githubusercontent.com/42552004/185695247-312e4c1f-f893-4869-ae7a-1088ae27661e.png)
+![image](https://user-images.githubusercontent.com/42552004/185698360-a42be897-b6e3-4e8a-bf8b-160b4b0a4599.png)
 
-Now we will see some information about the dataset and the architecture of the neural network of the Image captions generator.
-
-
-
-### Pre-requisites:
-This project requires good knowledge of Deep learning, Python, working on Jupyter notebooks, Keras library, Numpy, and Natural language Processing
-
-Make sure you have installed all the following necessary libraries:
-
+### What are the Pre-requisites?
+This project requires good knowledge of Deep learning, Python, working on Jupyter/Colab notebooks, Keras library, Numpy, and Natural language Processing. Make sure you have installed all the following necessary libraries:
 - Tensorflow
 - Keras
 - Pandas
 - NumPy
 - nltk ( Natural language tool kit)
+
+### What data sets are used for training the model?
+- Flickr 8K. A collection of 8 thousand described images taken from flickr.com.
+- Flickr 30K. A collection of 30 thousand described images taken from flickr.com.
+- Common Objects in Context (COCO). A collection of more than 120 thousand images with descriptions
+
+### What approaches we have taken for judging a best model?
+We have trained multiple models with various hyper parameters as described the below,
 
 
 ### Colab file to execute
