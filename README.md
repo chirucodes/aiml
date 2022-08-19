@@ -49,18 +49,47 @@ This project requires good knowledge of Deep learning, Python, working on Jupyte
 
 ### What approaches we have taken for judging a best model?
 We have trained multiple models with various hyper parameters as described the below,
+<table>
+<thead>
+  <th>Dataset</th>
+  <th>Encoder Model</th>
+  <th>WordEmbedding</th>
+  <th>Attention</th>
+  <th>Transformer</th>
+  <th>Loss function</th>
+  <th>Optimizer</th>
+  <th>No of pics per batch</th>
+  <th>Learning rate</th>
+  <th>Epochs</th>
+</thead>
+<tbody>
+<tr>
+  <th>Flicker8k, Flicker30k, COCO123k</th>
+  <th>VGG16, RESNET50, INCEPTIONV3</th>
+  <th>GLOVE, word2vec</th>
+  <th>With/Without Attention</th>
+  <th>With/Without Transformer</th>
+  <th>categorical_crossentropy</th>
+  <th>adam</th>
+  <th>30</th>
+  <th>0.0001</th>
+  <th>5, 10, 30</th>
+<tbody>
+</tr>
+</table>
 
 
-### Colab file to execute
+### Can I train a model?
+Yes, You can train the model using **the Google Colab notebook with various parameters**
 [automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb](https://github.com/chirucodes/aiml/blob/main/automatic_image_captioning/ResNet50_LSTM_with_Attention_ImageCaptioningGroup4.ipynb)
 
+### Some observations during the model training?
+You can find the observation in the [google sheets](https://docs.google.com/spreadsheets/d/1eO9BrHyBLZACl_1QBHOROR3yUCW5jHyael8NUIjX4vA/edit#gid=0)
 
-### Executions_n_observations:
-https://docs.google.com/spreadsheets/d/1eO9BrHyBLZACl_1QBHOROR3yUCW5jHyael8NUIjX4vA/edit#gid=0
-
-
-### Source of Deployments to deta.sh
+### What should I deploy on a remote server?
 https://github.com/chirucodes/aiml/tree/main/first_micro
 
-### Access Url
-https://aicg4.deta.dev/docs
+### Is it live?
+Yes, you can access the hosted service using the below links,
+- https://aiml-phase1.azurewebsites.net/
+- https://aicg4.deta.dev/docs
