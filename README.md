@@ -87,7 +87,7 @@ Yes, You can train the model using **the Google Colab notebook with various para
 You can find the observation in the [google sheets](https://docs.google.com/spreadsheets/d/1eO9BrHyBLZACl_1QBHOROR3yUCW5jHyael8NUIjX4vA/edit#gid=0)
 
 ### What should I deploy on a remote server?
-https://github.com/chirucodes/aiml/tree/main/first_micro
+https://github.com/chirucodes/aiml/tree/main/deployment_content <br><br>
 ![image](https://user-images.githubusercontent.com/42552004/185702837-1a550f5d-d1d8-4dd4-8de1-f65d1f2e3bbb.png)
 
 
