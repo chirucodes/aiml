@@ -47,8 +47,8 @@ This project requires good knowledge of Deep learning, Python, working on Jupyte
 - Flickr 30K. A collection of 30 thousand described images taken from flickr.com.
 - Common Objects in Context (COCO). A collection of more than 120 thousand images with descriptions
 
-### What approaches we have taken for judging a best model?
-We have trained multiple models with various hyper parameters as described the below,
+### What approaches we have taken for finding a best model?
+We have trained multiple pre-trained models with various hyper parameters and finalise the model which is giving a good accuracy as described the below,
 <table>
 <thead>
   <th>Dataset</th>
@@ -86,7 +86,7 @@ Yes, You can train the model using **the Google Colab notebook with various para
 ### Some observations during the model training?
 You can find the observation in the [google sheets](https://docs.google.com/spreadsheets/d/1eO9BrHyBLZACl_1QBHOROR3yUCW5jHyael8NUIjX4vA/edit#gid=0)
 
-### What should I deploy on a remote server?
+### What all should I deploy on a remote server?
 https://github.com/chirucodes/aiml/tree/main/deployment_content <br><br>
 ![image](https://user-images.githubusercontent.com/42552004/185702837-1a550f5d-d1d8-4dd4-8de1-f65d1f2e3bbb.png)
 
