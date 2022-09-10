@@ -22,6 +22,13 @@ Captioning the images with proper descriptions automatically has become an inter
 - Tesla/Google Self Drive Cars: All the self drive cars are using image/video processing with neural network to attain their goal.
 
 ### What is the architecture used?
+#### We have used multiple architectures to generate models as mentioned below,
+- ResNet50+LSTM
+- ResNet50+LSTM+Optimizer
+- ResNet50+LSTM+Attention
+- ResNet50+LSTM+Attention+Optimizer
+- ResNet50+Transformer
+
 We used one joint model AICRL, which is able to conduct the automatic image captioning based on ResNet50 and LSTM with soft attention. AICRL consists of one encoder and one decoder. 
 
 **Encoder**
@@ -33,6 +40,13 @@ The Convolutional Neural Network(CNN) can be thought of as an encoder. The input
 The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The decoder is designed with LSTM, a recurrent neural network and a soft attention mechanism, to selectively focus the attention over certain parts of an image to predict the next sentence. 
 
 ![image](https://user-images.githubusercontent.com/42552004/185698360-a42be897-b6e3-4e8a-bf8b-160b4b0a4599.png)
+
+We used **Transformers model** to get a better results,
+
+The transformer network employs an encoder-decoder architecture similar to that of an RNN. The main difference is that transformers can receive the input sentence/sequence in parallel, i.e, there is no time step associated with the input, and all the words in the sentence can be passed simultaneously.
+
+![image](https://user-images.githubusercontent.com/42552004/189497685-81cf89da-2592-4e59-b879-555adf828b49.png)
+
 
 ### What are the Pre-requisites?
 This project requires good knowledge of Deep learning, Python, working on Jupyter/Colab notebooks, Keras library, Numpy, and Natural language Processing. Make sure you have installed all the following necessary libraries:
@@ -93,5 +107,6 @@ https://github.com/chirucodes/aiml/tree/main/deployment_content <br><br>
 
 ### Is it live?
 Yes, you can access the hosted service using the below links,
+- http://aicg4live.westus3.cloudapp.azure.com/
 - https://aiml-phase1.azurewebsites.net/
 - https://aicg4.deta.dev/docs
