@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>Automatic Image Captioning</title>
+<style>
+
+* {background-color: #C7EBEA}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  box-sizing: content-box;
+
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 650px; /* Should be removed. Only for demonstration */
+  border: 10px gray;
+}
+</style>
+<body>
+
+
+<script type="text/javascript">
+    function previewFile() {
+        const preview = document.querySelector('img');
+        var file = document.getElementById('fileInput').files[0];
+        const reader = new FileReader();
+        reader.addEventListener("load", function() {
+            preview.src = reader.result; // show image in <img> tag
+        }, false);
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    }
+
+    function uploadFile(file) {
+        var file = document.getElementById('fileInput').files[0];
+        if (file) {
+            var formData = new FormData();
+            formData.append('file', file);
+            fetch('/upload', {
+                    method: 'POST',
+                    body: formData,
+                })
+                .then(response => response.json())
+
+                .then(data => {
+                    document.getElementById("serverMsg").innerHTML = data.message;
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
+    }
+</script>
+<h1 style="text-align:center;">Automatic Image Captioning - Group 4</h1>
+<div class = "row" color="#007D7B">
+<div class="column">
+    <h2 align = "center"  style="background-color:#007D7B;">Please Select An Image For Image Captioning</h2>
+    <input type="file" id="fileInput" onchange="previewFile()"><br>
+    <input type="button" value="Generate Caption" onclick="uploadFile()">
+    <img height="200" align="center"></img>
+    <h3 id="serverMsg" align="center"></h3>
+</div>
+</body>
+</html>
